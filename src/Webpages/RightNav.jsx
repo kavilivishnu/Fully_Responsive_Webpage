@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
 const UL = styled.ul`
     list-style: none;
@@ -29,12 +30,12 @@ const UL = styled.ul`
     }
 `;
 
-function RightNav ({ open }) {
+function RightNav({ open }) {
     return (
         <UL open={open}>
-          <li><a href="/Firstpage" style={{textDecoration: 'none', color: 'dark-grey'}}>Home</a></li>
-          <li><a href="/Secondpage" style={{textDecoration: 'none', color: 'dark-grey'}}>Entry Details</a></li>
-          <li><a href="/Thirdpage" style={{textDecoration: 'none', color: 'dark-grey'}}>Exit</a></li>
+            <li><Link to="/Firstpage" style={{ textDecoration: 'none', color: 'dark-grey' }}>Home</Link></li>
+            <li><Link to="/Secondpage" style={{ textDecoration: 'none', color: 'dark-grey' }}>Entry Details</Link></li>
+            <li><Link to="/Thirdpage" style={{ textDecoration: 'none', color: 'dark-grey' }}>Exit</Link></li>
         </UL>
     );
 }
