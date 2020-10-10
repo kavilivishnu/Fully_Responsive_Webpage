@@ -1,0 +1,20 @@
+To use a button as the redirecter
+
+First, import it:
+
+import { useHistory } from 'react-router-dom';
+Then, in function or class:
+
+const history = useHistory();
+Finally, you put it in the onClick function:
+
+<Button onClick={()=> history.push("/mypage")}>Click me!</Button>
+
+
+How do I get rid of the blue underline? The code is below:
+
+<Link to="first"><MenuItem style={{paddingLeft: 13, textDecoration: 'none'}}> Team 1 </MenuItem></Link>
+
+
+Link for cool wallpapers!
+https://www.google.co.in/imgres?imgurl=https%3A%2F%2Fwallpapercave.com%2Fwp%2Fwp4924046.jpg&imgrefurl=https%3A%2F%2Fwallpapercave.com%2Freact-js-wallpapers&tbnid=tX55Bme7dbffdM&vet=10CAIQxiAoAGoXChMIsIbNsJzk6wIVAAAAAB0AAAAAEBU..i&docid=UNmYscy85QLg1M&w=1920&h=1080&q=cool%20wallpaper%20fro%20reactjs&hl=en&authuser=0&ved=0CAIQxiAoAGoXChMIsIbNsJzk6wIVAAAAAB0AAAAAEBU

@@ -1,0 +1,203 @@
+.App {
+  text-align: center;
+  background-image: url("https://images.unsplash.com/photo-1500964757637-c85e8a162699?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80");
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.switchingpages{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  background: rgb(73, 79, 82);
+  color: white;
+  list-style: none;
+}
+
+
+.nav-links{
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  height: 11%;
+  text-decoration: none;
+}
+
+.btn{
+  background: #17c9e9;
+  border-radius: 5px;
+  padding: 10px 30px;
+  outline: 0;
+  box-shadow: 0px 2px 2px rgb(85, 85, 85);;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.4s;
+  font-family: 'Bungee Inline';
+  font-size: -70%;
+}
+
+:hover.btn { background-color: #d37e38
+}
+
+.btn-1{
+  background: #d5f80f;
+  border-radius: 5px;
+  padding: 5px 15px;
+  outline: 0;
+  box-shadow: 0px 2px 2px black;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.4s;
+  font-weight: bold;
+  font-family: 'Bungee Inline';
+  font-size: -70%;
+}
+
+:hover.btn-1 { background-color: #fd7302
+}
+
+.text{
+  background: whitesmoke;
+  border-radius: 5px;
+  padding: 5px 15px;
+  outline: 0;
+  box-shadow: 0px 2px 2px black;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+
+:hover.text { background-color: #4fc1ee
+}
+
+.password{
+  background: whitesmoke;
+  border-radius: 5px;
+  padding: 5px 15px;
+  outline: 0;
+  box-shadow: 0px 2px 2px black;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+
+:hover.password { background-color: #4fc1ee
+}
+
+.btn-2{
+  background: #fd5386;
+  border-radius: 20px;
+  padding: 5px 15px;
+  outline: 0;
+  box-shadow: 0px 2px 2px rgb(0, 0, 0);
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.4s;
+  font-weight: bold;
+  font-family: 'Bungee Inline';
+  font-size: -70%;
+}
+
+:hover.btn-2 { background-color: #ffaeae
+}
+
+.button{
+  background: #84ff73;
+  border-radius: 20px;
+  padding: 5px 15px;
+  outline: 0;
+  box-shadow: 0px 2px 2px black;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.4s;
+  font-weight: bold;
+  font-family: 'Bungee Inline';
+  font-size: -70%;
+  
+}
+
+:hover.button { background-color: #5bbdff
+}
+
+.buttonsecond{
+  background: #f56161;
+  padding: 5px 15px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.4s;
+  font-weight: bold;
+  margin-left: 47%;
+  font-family: 'Bungee Inline';
+  font-size: -70%;
+  margin-top: 29%;
+}
+
+:hover.buttonsecond { background-color: #b7ffff
+}
+
+.adjusting {
+  text-align: center;
+  margin-top: 0%;
+  font-family: 'El Messiri';
+  color: rgb(9, 253, 139);
+}
+
+.modal {
+  background-image: url("https://wallpapercave.com/wp/wp4923981.jpg");
+  width: 50%;
+  height: 60%;
+  margin-left: 25%;
+  margin-top: 10%;
+  position: fixed;
+  min-width: 50%;
+  min-height: 50%;
+  background-size: cover;
+  background-position: center;
+}
+
+@media all and (max-width : 768px) {
+  .switchingpages{
+    display: none;
+  }
+  
+  .nav-links{
+    display: none;
+  }
+  
+  .modal {
+    background-image: url("https://wallpapercave.com/wp/wp4923981.jpg");
+    margin-left: 15%;
+    margin-top: 40%;
+    position: fixed;
+    min-width: 70%;
+    min-height: 30%;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .buttonsecond{
+    background: #f56161;
+    padding: 5px 15px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.4s;
+    font-weight: bold;
+    margin-left: 35%;
+    font-family: 'Bungee Inline';
+    font-size: -70%;
+    margin-top: 70%;
+  }
+
+  .adjusting {
+    text-align: center;
+    font-size: smaller;
+    margin-top: 0%;
+    font-family: 'El Messiri';
+    color: rgb(9, 253, 139);
+  }
+}
+
